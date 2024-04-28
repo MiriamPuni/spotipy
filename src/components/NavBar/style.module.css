@@ -1,0 +1,30 @@
+.navBar {
+    border-left: var(--luli) solid 1.5px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.button {
+    border: 1.5px solid var(--luli);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+    /* padding: 20px; */
+    padding: 20px;
+}
+
+.i{
+    color: var(--luli);
+}
+.active {
+    border: 4px solid var(--luli);
+}

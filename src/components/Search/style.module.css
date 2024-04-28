@@ -1,0 +1,32 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+.form{
+    height: 10%;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+}
+.input{
+    border:none;
+    background-color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 450px;
+    margin: 10px;
+    /* margin-bottom: 0px; */
+}
+.text{
+    padding-bottom: 400px;
+}

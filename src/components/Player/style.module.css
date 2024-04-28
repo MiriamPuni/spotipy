@@ -1,0 +1,60 @@
+.player {
+    border-right: var(--luli) solid 1.5px;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+}
+
+.menuPlayer {
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+    height: 4.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.seek {
+    width: 100%;
+    height: 30%;
+    background-color: var(--luli);
+}
+
+.buttonPlayer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.icon {
+    color: var(--luli);
+    /* margin-left: 10px; */
+}
+
+.containerInputVolume {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inputVolume {
+    height: 3px;
+    width: 50px;
+    transform: rotate(270deg);
+
+    appearance: none;
+    border-radius: 50px;
+    background-color: lightgray;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.inputVolume::-webkit-slider-thumb {
+    width: 2px;  /* רוחב כפתור הגרירה */
+    height: 2px;  /* גובה כפתור הגרירה */
+    border-radius: 50%;  /* עיגוליות כפתור הגרירה */
+    background-color: #3498db;  /* צבע רקע של כפתור הגרירה */
+    border: 2px solid #2980b9;  /* גבולות כפתור הגרירה */
+    cursor: pointer;  /* סמל עכבר של יד */
+  }

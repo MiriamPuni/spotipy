@@ -1,0 +1,58 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.buttomcreatePlaylist:hover{
+    border: var(--luli) solid 4px;
+}
+.buttomcreatePlaylist{
+    border: var(--luli) solid 1px;
+    border-radius: 7px;
+    margin: 15px;
+    min-height: 47px;
+    width: 650px;
+    background-color: #262626 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    box-shadow: 0px 0px 25px -8px rgba(250,250,250,0.1);
+}
+.buttomcreatePlaylistisActive{
+    border: var(--luli) solid 4px;
+}
+.fa-solid:hover{cursor: pointer}
+.folder{
+    width: 200px;
+    height: 140px;
+    box-shadow: 0px 0px 27px -6px rgba(250,250,250,0.1);
+    border-radius: 10px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    /* color: var(--luli); */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.icon{
+    color: var(--luli);
+    font-size: 50px;
+}
+.folders{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    width: 90%;
+    height: 75%;
+    margin: 3px;
+    border-radius: 5px;
+}
+
